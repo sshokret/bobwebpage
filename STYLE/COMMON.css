@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.paragraph-text {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.Text-XL {
+    font-size: 36px;
+}
+
+.Text-L {
+    font-size: 28px;
+}
+
+.Text-M {
+    font-size: 18px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 100px;
+}
+
+.BlueSpanButton {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #CAEBFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* nav bar css */
+.NavBarSection {
+    padding: 16px
+}
+
+.NavBarLeft,
+.NavBarRight {
+    display: inline-block;
+}
+.NavBarLeft img{
+    width: 60%;
+    padding-left: 10px;
+}
+.NavBarRight > ul {
+    list-style-type: none;
+    padding-top:30px;
+}
+.NavBarRight{
+    float: right;
+}
+.NavBarRight li{
+    display: inline;
+    margin: 40px;
+}
+
+.NavBarRight li a{
+    text-decoration: none;
+    color: #333030;
+}
+
+.MainHeader {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.footerSection {
+    background-color: #333030;
+    text-align: center;
+    padding: 50px;
+}
+
+.footerSection p, 
+.footerSection h2 {
+    color: #ffffff;
+}
+
+
+
+.MenuPage,
+.Top5Page,
+.ContactPage {
+    width: 1024px;
+    margin: 0 auto;
+}

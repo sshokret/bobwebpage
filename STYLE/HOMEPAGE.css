@@ -1,0 +1,47 @@
+.HomepageImage {
+    height: 950px;
+    width: 100%;
+    background-image: url(../IMAGES/HOMEPAGE_IMAGE/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.CovidAnnouncementImage{
+    width: 100%;
+    height: 100%;
+}
+.CovidAnnouncementImage img,
+.WordsToCustomerRight img,
+.CateringHomepageLeft img {
+    width: 100%;
+}
+
+.WordsToCustomerLeft,
+.WordsToCustomerRight,
+.CateringHomepageLeft, 
+.CateringHomepageRight {
+    width: 50%;
+}
+
+.WordsToCustomer,
+.CateringHomepage {
+    display: inline-flex;
+    /* border: 1px solid; */
+}
+.WordsToCustomerLeft,
+.CateringHomepageRight {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.WordsToCustomerLeft,
+.CateringHomepageRight {
+    position: relative;
+    transform: translateY(30%);
+    top: 50%;
+}
+
+.CateringHomepageRightParagraph,
+.WordsToCustomerLeftParagraph {
+    text-align: center;
+}
